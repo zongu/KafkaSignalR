@@ -6,3 +6,5 @@
 /KafkaSignalR/bin
 /KafkaSignalR/obj/Debug
 /packages
+/KafkaSignalR.Domain/bin/Debug
+/KafkaSignalR.Domain/obj/Debug
