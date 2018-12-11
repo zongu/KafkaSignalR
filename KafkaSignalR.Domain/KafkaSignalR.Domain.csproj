@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Kafka\EventStream.cs" />
+    <Compile Include="Model\Kafka\IPubSubDispatcher.cs" />
     <Compile Include="Model\Kafka\IPubSubHandler.cs" />
     <Compile Include="Model\Kafka\KafkaEventStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
