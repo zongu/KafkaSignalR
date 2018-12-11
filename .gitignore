@@ -8,3 +8,12 @@
 /packages
 /KafkaSignalR.Domain/bin/Debug
 /KafkaSignalR.Domain/obj/Debug
+/KafkaSignalR.Repository.Tests/bin/Debug
+/KafkaSignalR.Repository/bin/Debug
+/KafkaSignalR.Repository/obj/Debug
+/KafkaSignalR.Repository.Tests/obj/Debug
+/KafkaSignalR.MsSql/bin/Debug
+/KafkaSignalR.MsSql/obj/Debug
+/KafkaSignalR.MsSql/匯入結構描述記錄
+/KafkaSignalR.MsSql/KafkaSignalR.MsSql.sqlproj.user
+/KafkaSignalR/*.user

@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSignalR", "KafkaSignal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSignalR.Domain", "KafkaSignalR.Domain\KafkaSignalR.Domain.csproj", "{171F44DC-9AC7-47F1-819B-EB8CDA25B52F}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "KafkaSignalR.MsSql", "KafkaSignalR.MsSql\KafkaSignalR.MsSql.sqlproj", "{2365A517-7C26-4CA4-A700-81E1E59F4E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSignalR.Repository", "KafkaSignalR.Repository\KafkaSignalR.Repository.csproj", "{9EE52C4E-8C05-4458-9076-DF3479ECA160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSignalR.Repository.Tests", "KafkaSignalR.Repository.Tests\KafkaSignalR.Repository.Tests.csproj", "{C8A9ABA2-06E7-4E39-914B-001149E9766C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,20 @@ Global
 		{171F44DC-9AC7-47F1-819B-EB8CDA25B52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171F44DC-9AC7-47F1-819B-EB8CDA25B52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171F44DC-9AC7-47F1-819B-EB8CDA25B52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2365A517-7C26-4CA4-A700-81E1E59F4E05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9EE52C4E-8C05-4458-9076-DF3479ECA160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE52C4E-8C05-4458-9076-DF3479ECA160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE52C4E-8C05-4458-9076-DF3479ECA160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE52C4E-8C05-4458-9076-DF3479ECA160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A9ABA2-06E7-4E39-914B-001149E9766C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A9ABA2-06E7-4E39-914B-001149E9766C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A9ABA2-06E7-4E39-914B-001149E9766C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A9ABA2-06E7-4E39-914B-001149E9766C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
