@@ -184,6 +184,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\PubMessageController.cs" />
+    <Compile Include="Event\PubMessageEventHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -220,6 +221,10 @@
     <ProjectReference Include="..\KafkaSignalR.Domain\KafkaSignalR.Domain.csproj">
       <Project>{171f44dc-9ac7-47f1-819b-eb8cda25b52f}</Project>
       <Name>KafkaSignalR.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KafkaSignalR.Repository\KafkaSignalR.Repository.csproj">
+      <Project>{9EE52C4E-8C05-4458-9076-DF3479ECA160}</Project>
+      <Name>KafkaSignalR.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

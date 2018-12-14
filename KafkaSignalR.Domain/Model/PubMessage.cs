@@ -1,7 +1,6 @@
 ﻿
 namespace KafkaSignalR.Domain.Model
-{
-    public class PubMessage
+{    public class PubMessage
     {
         public int PubMessageId { get; set; }
 

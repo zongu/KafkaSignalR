@@ -27,6 +27,7 @@ namespace KafkaSignalR
                 ConfigHelper.KafkaConsumerTopics,
                 ConfigHelper.KafkaBorkerList,
                 new PubSubDispatcher<KafkaEventStream>(AutoFacConfig.Container));
+            consumerGroup.Start();
         }
 
         protected void Application_End()

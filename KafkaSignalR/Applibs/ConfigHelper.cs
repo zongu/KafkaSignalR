@@ -16,5 +16,7 @@ namespace KafkaSignalR.Applibs
         public static readonly string KafkaConsumerGroupId = ConfigurationManager.AppSettings["KafkaConsumerGroupId"];
 
         public static readonly IEnumerable<string> KafkaConsumerTopics = ConfigurationManager.AppSettings["KafkaConsumerTopics"].Split(',').ToList();
+
+        public static readonly string KafkaSignalRConnectionString = ConfigurationManager.ConnectionStrings["KafkaSignalRConnectionString"].ConnectionString;
     }
 }
