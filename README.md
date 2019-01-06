@@ -27,3 +27,17 @@ docker run -d --name kafka -d -p 9092:9092 -p 15000:15000 --link zk:zk \
  -e JMX_PORT="9988" \
  wurstmeister/kafka:0.11.0.0
 ```
+* 本地端編譯執行KafkaSignalR.sln
+* Vue SignalR Demo
+```
+cd kafkasignalrvue
+npm install
+npm run dev
+```
+* 藉由觸發WebApi -> PubMessage to Kafka -> KafkaEventHandler -> SignalRBocast完成測試週期
+```
+PostUrl: host/api/PubMessage
+RequestData: {
+    Message: string
+}
+```
