@@ -11,6 +11,7 @@ namespace KafkaSignalR.Event
     using KafkaSignalR.Domain.Model.Event;
     using KafkaSignalR.Domain.Model.Kafka;
     using KafkaSignalR.Domain.Persistent;
+    using KafkaSignalR.Hub;
     using Newtonsoft.Json;
 
     public class PubMessageEventHandler : IkafkaPubSubHandler
@@ -36,6 +37,8 @@ namespace KafkaSignalR.Event
                     {
                         throw result.Item1;
                     }
+
+                    HubClient.BocastMessage(result.Item2);
                 }
             }
             catch (Exception ex)
