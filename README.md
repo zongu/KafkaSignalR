@@ -25,7 +25,7 @@ docker run -d --name kafka -d -p 9092:9092 -p 15000:15000 --link zk:zk \
  -e KAFKA_ZOOKEEPER_CONNECT="zk:2181" \
  -e KAFKA_HEAP_OPTS="-Xmx1G -Xms1G" \
  -e JMX_PORT="9988" \
- wurstmeister/kafka:0.11.0.0
+ wurstmeister/kafka:2.12-2.1.1
 ```
 * 本地端編譯執行KafkaSignalR.sln
 * Vue SignalR Demo
